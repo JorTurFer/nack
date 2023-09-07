@@ -4,7 +4,7 @@ kind: Stream
 metadata:
   name: mystream
   hello: world
-  namespace: nats-tst
+  namespace: nats
 spec:
   name: mystream
   subjects: ["orders.*"]
