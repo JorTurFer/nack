@@ -3,6 +3,7 @@ apiVersion: jetstream.nats.io/v1beta2
 kind: Consumer
 metadata:
   name: my-push-consumer
+  hello: world
   namespace: nats-tst
 spec:
   streamName: mystream
